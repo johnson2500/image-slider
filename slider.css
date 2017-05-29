@@ -1,10 +1,12 @@
 .slider {
-  position: relative;
-  overflow: hidden;
+	position: relative;
+	overflow: hidden;
 	width: 100%;
 	border: 1px solid black;
 }
 
+
+/* Styling for the back and forward button */
 a.control_prev, a.control_next {
   position: absolute;
   top: calc(50% - 40px);
@@ -35,10 +37,6 @@ a.control_next {
   border-radius: 2px 0 0 2px;
 }
 
-.view-height{
-	height: 80vh;
-}
-
 .auto-width{
 	width: auto;
 }
@@ -54,12 +52,6 @@ a.control_next {
 .inherit-height{
 	width: inherit;
 }
-
-iframe.portfolio{
-	height: 100vh;
-}
-
-/* test */
 
 img.sliderImg{
 	height: inherit;

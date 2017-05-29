@@ -1,0 +1,75 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+	width: 100%;
+	border: 1px solid black;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: calc(50% - 40px);
+  z-index: 99;
+  display: block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+	font-size: 3em;
+}
+
+a.control_next {
+  right: 0;
+	font-size: 3em;
+  border-radius: 2px 0 0 2px;
+}
+
+.view-height{
+	height: 80vh;
+}
+
+.auto-width{
+	width: auto;
+}
+
+.auto-height{
+	height: auto;
+}
+
+.inherit-width{
+	width: inherit;
+}
+
+.inherit-height{
+	width: inherit;
+}
+
+iframe.portfolio{
+	height: 100vh;
+}
+
+/* test */
+
+img.sliderImg{
+	height: inherit;
+	display: block;
+	margin: auto;
+}
+
+.hidden-overflow{
+	overflow: hidden;
+}
+
+
+
